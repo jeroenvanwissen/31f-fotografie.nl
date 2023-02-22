@@ -1,0 +1,12 @@
+---
+date: 2023-01-29
+title: Path through the field..
+categories:
+ - Nature Photography
+image: 
+    url: https://cdn.31f-fotografie.nl/DSC_0955.jpg
+    alt: Path through the field..
+socials: 
+    instagram: https://www.instagram.com/p/B1e4FFKhZq1/
+    mastodon: https://mastodon.social/@jeroenvanwissen/109772869112770865
+---

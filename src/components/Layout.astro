@@ -1,0 +1,60 @@
+---
+import Socials from './Socials.astro';
+import FotografieLogo from './FotografieLogo.astro';
+import WissenLogo from './WissenLogo.astro';
+import NameWriting from './NameWriting.astro';
+import '../style/main.css'
+export interface Props {
+	title: string;
+}
+const { title } = Astro.props as Props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+	<title>{title? `31F Fotografie - ${title}`: '31F Fotografie'}</title>
+	<meta name="description" content="Jeroen van Wissen - Over 20 years of experience as a developer, with over 5 years of experience as a Tech Lead / Engineering Manager." />
+	<script defer data-domain="31f-fotografie.nl" src="https://plausible.public-void.nl/js/plausible.js"></script>
+  <slot name="head" />
+</head>
+<body class="bg-gradient-to-bl from-black via-neutral-800 to-black">
+	<div class="w-full antialiased px-4">
+		<nav class="max-w-6xl mx-auto">
+			<div class="flex flex-wrap items-center justify-between">
+				<div class="flex">
+          <a href="/" class="px-2 py-4 no-underline" aria-label="31F Fotografie">
+            <FotografieLogo className="fill-gray-200 h-8" />
+					</a>
+				</div>
+				<div class="flex justify-center list-reset w-full md:w-auto">
+          <NameWriting className="fill-gray-200 h-10" />
+        </div>
+			</div>
+		</nav>
+		<div class="mb-6 max-w-6xl mx-auto">
+			<div class="flex items-center h-6 rounded-t bg-gray-100 border-b border-gray-500 text-center text-black">
+				<div class="flex ml-2 items-center text-center border-red-900 bg-red-500 shadow-inner rounded-full w-3 h-3"></div>
+				<div class="ml-2 border-yellow-900 bg-yellow-500 shadow-inner rounded-full w-3 h-3"></div>
+				<div class="ml-2 border-green-900 bg-green-500 shadow-inner rounded-full w-3 h-3"></div>
+				<div class="mx-auto pr-16" id="terminaltitle">
+					<p class="hidden md:inline text-center text-sm text-neutral-900">{title? `31F Fotografie - ${title}`: '31F Fotografie'}</p>
+					<p class="md:hidden text-center text-sm text-neutral-900">{title? title: '31F Fotografie'}</p>
+				</div>
+			</div>
+			<slot />
+		</div>
+		<footer class="max-w-6xl mx-auto mb-4">
+			<div class="flex justify-center">
+				<div class="bg-neutral-800/50 p-2 mb-2 rounded shadow-lg text-center md:flex md:gap-x-4">
+					<Socials className="fill-gray-200 hover:fill-wissen-orange hover:scale-110 h-12 pb-2 md:h-8 md:pb-0" />
+					<a href="https://jeroenvanwissen.nl" title="Jeroen van Wissen"><WissenLogo className="fill-gray-200 hover:fill-wissen-orange hover:scale-110 h-12 pb-2 md:h-8 md:pb-0" /></a>
+				</div>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

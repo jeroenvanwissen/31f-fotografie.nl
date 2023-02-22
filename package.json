@@ -1,0 +1,20 @@
+{
+  "name": "@jeroenvanwissen/31f-fotografie.nl",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "devDependencies": {
+    "astro": "^2.0.14",
+    "prettier-plugin-astro": "^0.8.0"
+  },
+  "dependencies": {
+    "@astrojs/netlify": "^2.1.2",
+    "@astrojs/tailwind": "^3.0.1",
+    "tailwindcss": "^3.2.7"
+  }
+}

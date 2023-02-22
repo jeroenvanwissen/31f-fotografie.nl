@@ -1,0 +1,29 @@
+# example netlify.toml
+[build]
+  command = "astro build"
+  functions = "netlify/functions"
+  publish = "dist"
+
+#[functions]
+#  external_node_modules = ["astro"]
+
+[[plugins]]
+  package = "@netlify/plugin-lighthouse"
+  [[plugins.inputs.audits]]
+    url = "https://31f-fotografie.nl/"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+  cache-control = "max-age=0,no-cache,no-store,must-revalidate"
+
+[[redirects]]
+  from = "https://www.31f.nl/*"
+  to = "https://31f-fotografie.nl/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://31f.nl/*"
+  to = "https://31f-fotografie.nl/:splat"
+  status = 301
+  force = true
