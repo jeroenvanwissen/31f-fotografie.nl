@@ -27,3 +27,13 @@
   to = "https://31f-fotografie.nl/:splat"
   status = 301
   force = true
+[[redirects]]
+  from = "https://www.31f.nl"
+  to = "https://31f-fotografie.nl"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://31f.nl"
+  to = "https://31f-fotografie.nl"
+  status = 301
+  force = true
