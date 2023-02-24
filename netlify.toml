@@ -18,16 +18,6 @@
   cache-control = "max-age=0,no-cache,no-store,must-revalidate"
 
 [[redirects]]
-  from = "https://www.31f.nl/*"
-  to = "https://31f-fotografie.nl/:splat"
-  status = 301
-  force = true
-[[redirects]]
-  from = "https://31f.nl/*"
-  to = "https://31f-fotografie.nl/:splat"
-  status = 301
-  force = true
-[[redirects]]
   from = "https://www.31f.nl"
   to = "https://31f-fotografie.nl"
   status = 301
@@ -35,5 +25,15 @@
 [[redirects]]
   from = "https://31f.nl"
   to = "https://31f-fotografie.nl"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://www.31f.nl/*"
+  to = "https://31f-fotografie.nl/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://31f.nl/*"
+  to = "https://31f-fotografie.nl/:splat"
   status = 301
   force = true
