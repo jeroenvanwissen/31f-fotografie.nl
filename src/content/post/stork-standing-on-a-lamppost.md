@@ -9,6 +9,3 @@ image:
   url: /photos/DSC_1106.webp
   alt: Stork standing on a lamppost
 ---
-
-
-
