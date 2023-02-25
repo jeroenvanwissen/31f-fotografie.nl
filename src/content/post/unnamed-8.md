@@ -5,7 +5,7 @@ title: Unnamed Picture
 categories:
   - Nature Photography
 image:
-  url: '/photos/DSC_1106.webp'
-  alt: Unnamed Picture
+  url: /photos/DSC_1106.webp
+  alt: Stork standing on a lamppost
 ---
 
