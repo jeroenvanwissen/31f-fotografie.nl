@@ -40,23 +40,21 @@ const sizes = [
 	</Fragment>
 	<div class="bg-neutral-800/70 shadow-lg rounded-b mx-auto">
 		<div class="flex">
-      <div class="md:flex items-start px-4 py-6">
-        <img class="w-40 h-40 rounded-full object-cover mr-4 shadow" src="/images/fotograaf.webp" alt="avatar">
-        <div class="">
-          <div class="flex items-center justify-between">
-            <h2 class="text-lg font-bold text-neutral-200">31F Fotografie</h2>
-          </div>
-          <p class="text-neutral-300">Life through the lens of Jeroen van Wissen</p>
-          <p class="mt-3 text-neutral-200 text-sm">
-            After having done some motorsport photography between 2005 and 2008, I didn't touch my gear much outside of the occasional holiday trip to France. Slowly picking up my gear again, just to be out there in the nature and shoot life as I see it...
-          </p>
-          <div class="mt-3 text-neutral-200 text-sm">find me on <a href="https://mastodon.social/@jeroenvanwissen" title="Mastodon" class="underline text-wissen-orange">Mastodon</a> or any of the other social media channels at the bottom of this website..</div>
-        </div>
+			<div class="md:flex items-start px-4 py-6">
+				<img class="w-40 h-40 rounded-full object-cover md:mr-4 shadow mx-auto" src="/images/fotograaf.webp" alt="avatar">
+				<div class="">
+				<div class="flex items-center justify-between">
+					<h2 class="text-lg font-bold text-neutral-200">31F Fotografie</h2>
+				</div>
+				<p class="text-neutral-300">Life through the lens of Jeroen van Wissen</p>
+				<p class="mt-3 text-neutral-200 text-sm">
+					After having done some motorsport photography between 2005 and 2008, I didn't touch my gear much outside of the occasional holiday trip to France. Slowly picking up my gear again, just to be out there in the nature and shoot life as I see it...
+				</p>
+				<div class="mt-3 text-neutral-200 text-sm">find me on <a href="https://mastodon.social/@jeroenvanwissen" title="Mastodon" class="underline text-wissen-orange">Mastodon</a> or any of the other social media channels at the bottom of this website..</div>
+				</div>
+			</div>
       </div>
-      </div>
-
-
-      <section class="mx-auto p-4">
+      <section class="mx-auto p-4 pt-0">
 				<div class="md:flex md:flex-wrap -m-1 md:-m-2">
 					{
 						group(sortedPosts, 3, 4).slice(0, 8).map((posts: any, groupIndex: number) => {
