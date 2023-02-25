@@ -10,5 +10,6 @@ image:
   alt: Stork standing on a lamppost
 socials:
   instagram: 'https://www.instagram.com/p/B1e4tV5BjCr/'
+  mastodon: 'https://mastodon.social/@jeroenvanwissen/109925847453994484'
 ---
 
