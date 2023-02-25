@@ -1,13 +1,15 @@
 ---
-date: 2022-12-27
+date: '2022-12-27T00:00:00.000Z'
 title: ALLEGRO container ship at Vlissingen
 categories:
- - Boats
- - Sea & Shore
-image: 
-    url: https://cdn.31f-fotografie.nl/DSC_1434.jpg
-    alt: ALLEGRO container ship at Vlissingen
-socials: 
-    instagram: https://www.instagram.com/p/CE4Uhb6g5Oh/
-    mastodon: https://mastodon.social/@jeroenvanwissen/109585504792207288
+  - Boats
+  - Sea & Shore
+image:
+  url: /photos/DSC_1434.webp
+  alt: ALLEGRO container ship at Vlissingen
+socials:
+  instagram: 'https://www.instagram.com/p/CE4Uhb6g5Oh/'
+  mastodon: 'https://mastodon.social/@jeroenvanwissen/109585504792207288'
+description: ''
 ---
+

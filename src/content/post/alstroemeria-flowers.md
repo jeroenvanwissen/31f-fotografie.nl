@@ -1,12 +1,14 @@
 ---
-date: 2020-10-26
+date: '2020-10-26T00:00:00.000Z'
 title: Alstroemeria flowers
 categories:
- - Nature Photography
- - Flowers
-image: 
-    url: https://cdn.31f-fotografie.nl/DSC_1217-Edit.jpg
-    alt: Alstroemeria flowers
-socials: 
-    instagram: https://www.instagram.com/p/CG0YRN7gG49/
+  - Nature Photography
+  - Flowers
+image:
+  url: '/photos/DSC_1217-Edit.webp'
+  alt: Alstroemeria flowers
+socials:
+  instagram: 'https://www.instagram.com/p/CG0YRN7gG49/'
+draft: false
 ---
+

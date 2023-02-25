@@ -1,11 +1,8 @@
 # example netlify.toml
 [build]
-  command = "astro build"
+  command = "tinacms build && astro build"
   functions = "netlify/functions"
   publish = "dist"
-
-#[functions]
-#  external_node_modules = ["astro"]
 
 [[plugins]]
   package = "@netlify/plugin-lighthouse"

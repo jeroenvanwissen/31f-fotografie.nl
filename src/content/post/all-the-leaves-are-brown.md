@@ -1,14 +1,16 @@
 ---
-date: 2022-12-11
+date: '2022-12-11T00:00:00.000Z'
 title: All the leaves are brown
 categories:
-    - Nature Photography
-    - Forrest
-image: 
-    url: https://cdn.31f-fotografie.nl/_DSC2407-Edit.jpg
-    alt: All the leaves are brown
-socials: 
-    instagram: https://www.instagram.com/p/CmCnry5Ky8o/
+  - Nature Photography
+  - Forrest
+image:
+  url: '/photos/_DSC2407-Edit.webp'
+  alt: All the leaves are brown
+socials:
+  instagram: 'https://www.instagram.com/p/CmCnry5Ky8o/'
+description: ''
+draft: false
 ---
 
 🎶

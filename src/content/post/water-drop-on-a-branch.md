@@ -1,12 +1,14 @@
 ---
-date: 2022-12-11
+date: '2022-12-11T00:00:00.000Z'
 title: Water drop on a branch
 categories:
- - Nature Photography
- - Forrest
-image: 
-    url: https://cdn.31f-fotografie.nl/_DSC2386-Edit.jpg
-    alt: Water drop on a branch
-socials: 
-    instagram: https://www.instagram.com/p/CmClTBGKPK1/
+  - Nature Photography
+  - Forrest
+image:
+  url: '/photos/_DSC2386-Edit.webp'
+  alt: Water drop on a branch
+socials:
+  instagram: 'https://www.instagram.com/p/CmClTBGKPK1/'
+draft: false
 ---
+

@@ -1,12 +1,14 @@
 ---
-date: 2022-10-30
+date: '2022-10-30T00:00:00.000Z'
 title: Mushroom mushroom!!
 categories:
- - Nature Photography
- - Forrest
-image: 
-    url: https://cdn.31f-fotografie.nl/_DSC2288-Edit.jpg
-    alt: Muschrooms
-socials: 
-    instagram: https://www.instagram.com/p/CkWbGeIKiYs/
+  - Nature Photography
+  - Forrest
+image:
+  url: '/photos/_DSC2288-Edit.webp'
+  alt: Muschrooms
+socials:
+  instagram: 'https://www.instagram.com/p/CkWbGeIKiYs/'
+draft: false
 ---
+

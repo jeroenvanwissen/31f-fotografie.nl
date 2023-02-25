@@ -1,13 +1,11 @@
 ---
 draft: true
-date: 2023-01-01
+date: '2023-01-01T00:00:00.000Z'
 title: Unnamed Picture
 categories:
- - Nature Photography
-image: 
-    url: https://cdn.31f-fotografie.nl/DSC_1093.jpg
-    alt: Unnamed Picture
-# socials: 
-#     instagram: 
-#     mastodon:
+  - Nature Photography
+image:
+  url: '/photos/DSC_1093.webp'
+  alt: Unnamed Picture
 ---
+

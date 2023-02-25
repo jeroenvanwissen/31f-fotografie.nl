@@ -1,15 +1,16 @@
 ---
-date: 2022-12-29
+date: '2022-12-29T00:00:00.000Z'
 title: Benetton - Powered by Ford
 categories:
- - Auto Racing
- - Sport
-image: 
-    url: https://cdn.31f-fotografie.nl/DSC_5630.jpg
-    alt: Benetton - Powered by Ford
-socials: 
-    instagram: https://www.instagram.com/p/Cmw63CUIvmz/
-    mastodon: https://mastodon.social/@jeroenvanwissen/109598741075029560
+  - Auto Racing
+  - Sport
+image:
+  url: '/photos/DSC_5630.webp'
+  alt: Benetton - Powered by Ford
+socials:
+  instagram: 'https://www.instagram.com/p/Cmw63CUIvmz/'
+  mastodon: 'https://mastodon.social/@jeroenvanwissen/109598741075029560'
+draft: false
 ---
 
 An old one from the archives... back in the day when I was around race cars every now and then...
