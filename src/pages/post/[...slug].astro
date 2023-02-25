@@ -34,7 +34,7 @@ const { Content } = await post.render();
                         </div>
                     }
                 </div>
-                <span class="text-xs text-neutral-500">{post.data.date.toLocaleString('en-US', {day: 'numeric', month: 'long', year: 'numeric'})}</span>
+                <span class="text-xs text-neutral-500">{post.data.date.toLocaleString('en-US', {day: 'numeric', month: 'long', year: 'numeric', timeZone: 'Europe/Amsterdam'})}</span>
                 <Content />
                 <p>
                     <a href="/">&larr; back home</a>
