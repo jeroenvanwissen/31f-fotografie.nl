@@ -8,7 +8,7 @@ categories:
 image:
   url: /photos/DSC_1106.webp
   alt: Stork standing on a lamppost
+socials:
+  instagram: 'https://www.instagram.com/p/B1e4tV5BjCr/'
 ---
-
-
 
