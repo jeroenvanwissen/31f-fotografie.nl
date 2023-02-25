@@ -1,7 +1,7 @@
 ---
 draft: true
 date: '2023-01-01T00:00:00.000Z'
-title: Unnamed Picture
+title: Stork standing on a lamppost
 categories:
   - Nature Photography
 image:
