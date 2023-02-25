@@ -12,10 +12,11 @@ const { Content } = await post.render();
         <meta content={`31F Fotografie - ${post.data.title}`} property="og:title">
         <meta content={`31F Fotografie - ${post.data.title}`} name="description">
         <meta content={`31F Fotografie - ${post.data.title}`} property="og:description">
-        <meta content={`https://31f-fotografie.nl/post/${post.slug}`} property="og:url">
-        <meta content={`https://31f-fotografie.nl${post.data.image.url}`} property="og:image">
+        <meta content={`${import.meta.env.SITE}/post/${post.slug}`} property="og:url">
+        <meta content={`${import.meta.env.SITE}${post.data.image.url}`} property="og:image">
         <meta content={post.data.image.alt} property="og:image:alt" />
-        <meta content={`https://31f-fotografie.nl${post.data.image.url}`} property="twitter:image:src">
+        <meta content={`${import.meta.env.SITE}${post.data.image.url}`} property="og:image">
+        <meta content={`${import.meta.env.SITE}${post.data.image.url}`} property="twitter:image:src">
 	</Fragment>
 	<div class="bg-neutral-800/70 shadow-lg rounded-b mx-auto">
         <article class="px-2 py-2">

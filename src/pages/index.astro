@@ -1,8 +1,8 @@
 ---
-import { getCollection } from 'astro:content';
+import { getSortedCollectionPosts } from '../lib/util';
 import Layout from '../components/Layout.astro';
 
-const sortedPosts = await getCollection('post').then(entries => entries.filter(entry => !entry.data.draft).map((entry) => ({...entry.data, type: 'post', url: `/post/${entry.slug}`})).sort((a: any, b: any) => new Date(b.date).valueOf() - new Date(a.date).valueOf()));
+const sortedPosts = await getSortedCollectionPosts({ collection: 'post' });
 
 const group = (items: Array<any>, nMin: number, nMax: number) => {
 	let arrs = [];
@@ -34,9 +34,9 @@ const sizes = [
         <meta content="31F Fotografie" property="og:title">
         <meta content="31F Fotografie - Life through the lens of Jeroen van Wissen" name="description">
         <meta content="31F Fotografie - Life through the lens of Jeroen van Wissen" property="og:description">
-        <meta content="https://31f-fotografie.nl" property="og:url">
-        <meta content="https://31f-fotografie.nl/images/fotograaf.webp" property="og:image">
-        <meta content="https://31f-fotografie.nl/images/fotograaf.webp" property="twitter:image:src">
+        <meta content={import.meta.env.SITE} property="og:url">
+        <meta content={`${import.meta.env.SITE}/images/fotograaf.webp`} property="og:image">
+        <meta content={`${import.meta.env.SITE}/images/fotograaf.webp`} property="twitter:image:src">
 	</Fragment>
 	<div class="bg-neutral-800/70 shadow-lg rounded-b mx-auto">
 		<div class="flex">
@@ -76,7 +76,7 @@ const sizes = [
 											}
 											return (
 												<div class:list={[size, "p-1 pt-3", "md:p-2"]}>
-													<a href={post.url}><img src={post.image.url} alt={post.image.alt} class="block object-cover object-center w-full h-full rounded-lg shadow" /></a>
+													<a href={`post/${post.slug}`}><img src={post.data.image.url} alt={post.data.image.alt} class="block object-cover object-center w-full h-full rounded-lg shadow" /></a>
 												</div>
 											)
 										})
