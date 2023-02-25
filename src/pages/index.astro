@@ -27,8 +27,17 @@ const sizes = [
 	['md:w-full', 'md:w-1/2', 'md:w-1/2'],
 ]; 							
 ---
-
-<Layout title="">
+<Layout>
+	<Fragment slot="head">
+		<title>31F Fotografie</title>
+        <meta content="image.photo" property="og:type">
+        <meta content="31F Fotografie" property="og:title">
+        <meta content="31F Fotografie - Life through the lens of Jeroen van Wissen" name="description">
+        <meta content="31F Fotografie - Life through the lens of Jeroen van Wissen" property="og:description">
+        <meta content="https://31f-fotografie.nl" property="og:url">
+        <meta content="https://31f-fotografie.nl/images/fotograaf.webp" property="og:image">
+        <meta content="https://31f-fotografie.nl/images/fotograaf.webp" property="twitter:image:src">
+	</Fragment>
 	<div class="bg-neutral-800/70 shadow-lg rounded-b mx-auto">
 		<div class="flex">
       <div class="md:flex items-start px-4 py-6">

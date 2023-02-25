@@ -4,22 +4,17 @@ import FotografieLogo from './FotografieLogo.astro';
 import WissenLogo from './WissenLogo.astro';
 import NameWriting from './NameWriting.astro';
 import '../style/main.css'
-export interface Props {
-	title: string;
-}
-const { title } = Astro.props as Props;
 ---
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
 	<link rel="icon" type="image/x-icon" href="/favicon.svg" />
-	<title>{title? `31F Fotografie - ${title}`: '31F Fotografie'}</title>
-	<meta name="description" content="31F Fotografie - Life through the lens of Jeroen van Wissen" />
 	<script defer data-domain="31f-fotografie.nl" src="https://plausible.public-void.nl/js/plausible.js"></script>
-  <slot name="head" />
+	<meta content="@jvwissen" name="twitter:creator">
+	<meta content="summary_large_image" name="twitter:card">
+	<slot name="head" />
 </head>
 <body class="bg-gradient-to-l from-black via-neutral-800 to-black">
 	<div class="w-full antialiased px-4">
@@ -41,8 +36,7 @@ const { title } = Astro.props as Props;
 				<div class="ml-2 border-yellow-900 bg-yellow-500 shadow-inner rounded-full w-3 h-3"></div>
 				<div class="ml-2 border-green-900 bg-green-500 shadow-inner rounded-full w-3 h-3"></div>
 				<div class="mx-auto pr-16" id="terminaltitle">
-					<p class="hidden md:inline text-center text-sm text-neutral-900">{title? `31F Fotografie - ${title}`: '31F Fotografie'}</p>
-					<p class="md:hidden text-center text-sm text-neutral-900">{title? title: '31F Fotografie'}</p>
+					<p class="md:inline text-center text-sm text-neutral-900">31F Fotografie</p>
 				</div>
 			</div>
 			<slot />
