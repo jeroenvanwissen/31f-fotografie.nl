@@ -7,5 +7,8 @@ export default defineConfig({
   site: 'https://31f-fotografie.nl',
   output: 'server',
   adapter: netlify(),
-  integrations: [tailwind()]
+  integrations: [tailwind()],
+  markdown: {
+    drafts: false,
+  }
 });
