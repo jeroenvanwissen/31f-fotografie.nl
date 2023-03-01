@@ -2,7 +2,8 @@
 import { getEntryBySlug } from 'astro:content';
 import Layout from '../../components/Layout.astro';
 const { slug } = Astro.params;
-const post = await getEntryBySlug('post', slug);
+const post = await getEntryBySlug('post', slug).then(entry => entry.data.draft ? false : entry);
+if (!post) return Astro.redirect("/404");
 const { Content } = await post.render();
 ---
 <Layout>
