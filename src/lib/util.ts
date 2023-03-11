@@ -94,15 +94,16 @@ export async function generateSitemapXml(entries: Array<IEntry> = [], site: {url
             </url>
         `.trim();
     }).join("")}
-    ${(await getAllCategories()).map(category => {
-        return `
-            <url>
-                <loc>${site.url}/category/${category.slug}</loc>
-                <lastmod>${lastMod}</lastmod>
-                <priority>0.64</priority>
-            </url>
-        `.trim();
-    }).join("")}
     </urlset>
     `.trim();
 }
+
+// ${(await getAllCategories()).map(category => {
+//     return `
+//         <url>
+//             <loc>${site.url}/category/${category.slug}</loc>
+//             <lastmod>${lastMod}</lastmod>
+//             <priority>0.64</priority>
+//         </url>
+//     `.trim();
+// }).join("")}
