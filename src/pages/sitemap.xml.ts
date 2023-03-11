@@ -1,9 +1,7 @@
-import { getSortedCollectionPosts, generateSitemapXml } from "../lib/util";
+import { getAllSortedEntries, generateSitemapXml } from '@lib/util';
 
 export async function get() {
-    const posts = await getSortedCollectionPosts({ collection: 'post' });
-
     return {
-        body: await generateSitemapXml({ posts, site: { url: import.meta.env.SITE } })
+        body: await generateSitemapXml((await getAllSortedEntries()), { url: import.meta.env.SITE })
     }
 }

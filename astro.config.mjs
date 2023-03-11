@@ -5,10 +5,10 @@ import tailwind from "@astrojs/tailwind";
 // https://astro.build/config
 export default defineConfig({
   site: 'https://31f-fotografie.nl',
-  output: 'server',
+  output: 'static',
   adapter: netlify(),
   integrations: [tailwind()],
   markdown: {
     drafts: false,
-  }
+  },
 });

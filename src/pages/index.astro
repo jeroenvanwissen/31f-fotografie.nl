@@ -1,8 +1,8 @@
 ---
-import { getSortedCollectionPosts } from '../lib/util';
-import Layout from '../components/Layout.astro';
+import { getAllSortedEntries } from '@lib/util';
+import Layout from '@layouts/Layout.astro';
 
-const sortedPosts = await getSortedCollectionPosts({ collection: 'post' });
+const sortedPosts = await getAllSortedEntries();
 
 const group = (items: Array<any>, nMin: number, nMax: number) => {
 	let arrs = [];
