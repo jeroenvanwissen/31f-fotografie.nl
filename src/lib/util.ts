@@ -85,7 +85,6 @@ export async function generateSitemapXml(entries: Array<IEntry> = [], site: {url
         <priority>1.00</priority>
     </url>
     ${entries.map(entry => {
-        console.log(entry);
         return `
             <url>
                 <loc>${site.url}/${entry.collection}/${entry.slug}</loc>
