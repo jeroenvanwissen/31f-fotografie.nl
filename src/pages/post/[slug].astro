@@ -1,5 +1,4 @@
 ---
-import { getEntryBySlug } from 'astro:content';
 import { getSortedEntriesFromCollection } from '@lib/util';
 import Layout from '@layouts/Layout.astro';
 
@@ -12,26 +11,23 @@ export async function getStaticPaths() {
 	});
 }
 
-const { slug } = Astro.params;
-if (slug === undefined) return Astro.redirect('/404');
-
-const entry = await getEntryBySlug('post', slug);
-if (entry === undefined) return Astro.redirect('/404');
+const { entry } = Astro.props;
 const { Content } = await entry.render();
 ---
 <Layout>
 	<Fragment slot="head">
-		<title>31F Fotografie</title>
+		<title>{entry.data.title} - 31F Fotografie</title>
         <meta content="image.photo" property="og:type">
-        <meta content={`31F Fotografie - ${entry.data.title}`} property="og:title">
-        <meta content={`31F Fotografie - ${entry.data.title}`} name="description">
-        <meta content={`31F Fotografie - ${entry.data.title}`} property="og:description">
+        <meta content={`${entry.data.title} - 31F Fotografie`} property="og:title">
+        <meta content={entry.data.description} name="description">
+        <meta content={entry.data.description} property="og:description">
         <meta content={`${import.meta.env.SITE}/post/${entry.slug}`} property="og:url">
         <meta content={`${import.meta.env.SITE}${entry.data.image.url}`} property="og:image">
         <meta content={entry.data.image.alt} property="og:image:alt" />
-        <meta content={`${import.meta.env.SITE}${entry.data.image.url}`} property="og:image">
         <meta content={`${import.meta.env.SITE}${entry.data.image.url}`} property="twitter:image:src">
+        <link href={`${import.meta.env.SITE}/post/${entry.slug}`} rel="canonical" />
 	</Fragment>
+    <Fragment slot="title">31F Fotografie</Fragment>
 	<div class="bg-neutral-800/70 shadow-lg rounded-b mx-auto">
         <article class="px-2 py-2">
             <div class="p-2">

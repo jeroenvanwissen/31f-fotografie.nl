@@ -1,0 +1,44 @@
+---
+import Layout from '@layouts/Layout.astro';
+---
+
+<Layout>
+    <Fragment slot="head">
+        <title>404 Not Found - 31F Fotografie</title>
+        <meta content="noindex, nofollow" name="robots" />
+        <meta content="website" property="og:type" />
+        <meta content="404 Not Found - 31F Fotografie" property="og:title" />
+        <meta content="404 Not Found - 31F Fotografie" name="description" />
+        <meta content="404 Not Found - 31F Fotografie" property="og:description" />
+        <meta content={`${import.meta.env.SITE}/404`} property="og:url" />
+        <meta content={`${import.meta.env.SITE}/images/og-image.webp`} property="og:image" />
+        <meta content={`${import.meta.env.SITE}/images/og-image.webp`} property="twitter:image:src" />
+        <link href={`${import.meta.env.SITE}/404`} rel="canonical" />
+    </Fragment>
+    <Fragment slot="title">404 Not Found - 31F Fotografie</Fragment>
+    <div class="bg-neutral-800/70 shadow-lg rounded-b mx-auto">
+        <article class="px-2 py-2">
+            <div class="p-2">
+                <img src="/images/404.webp" alt="404 Image" class="h-full w-full rounded" />
+                <div class="flex items-center justify-between">
+                    <h1 class="mt-6 text-xl text-neutral-100">404 Not Found</h1>
+                </div>
+                <p>
+                    The page you're trying to load does not exist... go to the <a href="/">homepage</a>
+                </p>
+            </div>
+        </article>
+    </div>
+</Layout>
+
+<style is:global>
+    article h2 {
+        @apply mt-6 text-xl text-neutral-100;
+    }
+    article p {
+        @apply mt-3 mb-4 text-justify text-neutral-200;
+    }
+    article a {
+        @apply text-wissen-orange underline hover:text-wissen-blue;
+    }
+</style>

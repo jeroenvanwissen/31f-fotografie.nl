@@ -30,14 +30,16 @@ const sizes = [
 <Layout>
 	<Fragment slot="head">
 		<title>31F Fotografie</title>
-        <meta content="image.photo" property="og:type">
+        <meta content="website" property="og:type">
         <meta content="31F Fotografie" property="og:title">
         <meta content="31F Fotografie - Life through the lens of Jeroen van Wissen" name="description">
         <meta content="31F Fotografie - Life through the lens of Jeroen van Wissen" property="og:description">
         <meta content={import.meta.env.SITE} property="og:url">
         <meta content={`${import.meta.env.SITE}/images/fotograaf.webp`} property="og:image">
         <meta content={`${import.meta.env.SITE}/images/fotograaf.webp`} property="twitter:image:src">
+		<link href={import.meta.env.SITE} rel="canonical" />
 	</Fragment>
+    <Fragment slot="title">31F Fotografie</Fragment>
 	<div class="bg-neutral-800/70 shadow-lg rounded-b mx-auto">
 		<div class="flex">
 			<div class="md:flex items-start px-4 py-6">
