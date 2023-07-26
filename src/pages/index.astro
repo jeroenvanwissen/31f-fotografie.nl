@@ -25,6 +25,8 @@ const sizes = [
 	['md:w-1/2', 'md:w-1/2', 'md:w-full'],
 	['md:w-1/2', 'md:w-1/2', 'md:w-full'],
 	['md:w-full', 'md:w-1/2', 'md:w-1/2'],
+	['md:w-full', 'md:w-1/2', 'md:w-1/2'],
+	['md:w-1/2', 'md:w-1/2', 'md:w-full'],
 ]; 							
 ---
 <Layout>
@@ -59,7 +61,7 @@ const sizes = [
       <section class="mx-auto p-4 pt-0">
 				<div class="md:flex md:flex-wrap -m-1 md:-m-2">
 					{
-						group(sortedPosts, 3, 4).slice(0, 8).map((posts: any, groupIndex: number) => {
+						group(sortedPosts, 3, 4).slice(0, 10).map((posts: any, groupIndex: number) => {
 							if (posts.length > 3) {
 								if (sizes[groupIndex][0] === 'md:w-full') {
 									sizes[groupIndex].push('md:w-1/3');
