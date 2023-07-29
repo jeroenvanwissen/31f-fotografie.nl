@@ -10,7 +10,7 @@ image:
   alt: De Korenbloem, Zoelen
 socials:
   instagram: 'https://www.instagram.com/p/CvLJGLyIJ7A/'
-#  mastodon: ''
+  mastodon: 'https://mastodon.social/@jeroenvanwissen/110799691976410640'
 draft: false
 ---
 

@@ -1,0 +1,15 @@
+---
+draft: false
+date: '2023-07-30T00:00:00.000Z'
+title: Butterfly
+image:
+  url: '/photos/DSC_0944.webp'
+  alt: Butterfly
+categories:
+  - Nature Photography
+  - Insects
+socials:
+  instagram: 'https://www.instagram.com/p/B1e4aMNB8gu/'
+  # mastodon: ''
+---
+
