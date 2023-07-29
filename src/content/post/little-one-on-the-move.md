@@ -8,7 +8,10 @@ image:
   alt: Little one on the move...
 socials:
   instagram: 'https://www.instagram.com/p/CvLHUe-oc6b/'
-#  mastodon: ''
+  mastodon: 'https://mastodon.social/@jeroenvanwissen/110797787758017721'
 draft: false
 ---
 
+This little one crossed the road while I was walking around a nearby park. A couple of motorcycles passed, while we waited in the middle of the road.
+
+Safe travels little one...
