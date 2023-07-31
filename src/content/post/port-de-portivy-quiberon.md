@@ -8,8 +8,8 @@ image:
   url: '/photos/_D015233.webp'
   alt: Port de Portivy, Quiberon (France)
 socials:
-  instagram: 'https://www.instagram.com/p/CvX9PTbIlEx/'
-#   mastodon: ''
+  instagram: 'https://www.instagram.com/p/CvX-e82IjQ0/'
+  mastodon: 'https://mastodon.social/@jeroenvanwissen/110810502879723253'
 draft: false
 ---
 
