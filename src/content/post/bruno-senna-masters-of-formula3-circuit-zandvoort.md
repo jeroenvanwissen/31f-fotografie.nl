@@ -9,7 +9,7 @@ image:
   alt: Bruno Senna
 socials:
   instagram: 'https://www.instagram.com/p/CvZfqfiouw3/'
-#   mastodon: ''
+  mastodon: 'https://mastodon.social/@jeroenvanwissen/110813873094342212'
 draft: false
 ---
 
