@@ -8,9 +8,9 @@ description: Stairway to the north... winter is coming!
 image:
   url: '../../assets/photos/_D017198.jpg'
   alt: Stairway to the north... winter is coming!
-# socials:
-#   instagram: ''
-#   mastodon: ''
+socials:
+  instagram: 'https://www.instagram.com/p/CvccpbnoMXz/'
+  mastodon: 'https://mastodon.social/@jeroenvanwissen/110820333027826921'
 draft: false
 ---
 
