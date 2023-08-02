@@ -5,7 +5,7 @@ categories:
   - Nature Photography
   - Forrest
 image:
-  url: '/photos/_DSC2380-Edit.webp'
+  url: '../../assets/photos/_DSC2380.jpg'
   alt: Crack in branch
 socials:
   instagram: 'https://www.instagram.com/p/Cmh8x8_Is_W'

@@ -5,7 +5,7 @@ categories:
   - Boats
   - Sea & Shore
 image:
-  url: /photos/DSC_1434.webp
+  url: '../../assets/photos/DSC_1434.jpg'
   alt: ALLEGRO container ship at Vlissingen
 socials:
   instagram: 'https://www.instagram.com/p/CE4Uhb6g5Oh/'

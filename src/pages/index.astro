@@ -1,4 +1,5 @@
 ---
+import { Image } from 'astro:assets';
 import { getAllSortedEntries } from '@lib/util';
 import Layout from '@layouts/Layout.astro';
 
@@ -80,7 +81,9 @@ const sizes = [
 											}
 											return (
 												<div class:list={[size, "p-1 pt-3", "md:p-2"]}>
-													<a href={`post/${post.slug}`}><img src={post.data.image.url} alt={post.data.image.alt} class="block object-cover object-center w-full h-full rounded-lg shadow" /></a>
+													<a href={`post/${post.slug}`}>
+														<Image src={post.data.image.url} alt={post.data.image.alt} width={640} height={360} class="block object-cover object-center w-full h-full rounded-lg shadow" />
+													</a>
 												</div>
 											)
 										})

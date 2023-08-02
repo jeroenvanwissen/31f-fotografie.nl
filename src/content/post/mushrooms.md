@@ -5,7 +5,7 @@ categories:
   - Nature Photography
   - Forrest
 image:
-  url: '/photos/_DSC2288-Edit.webp'
+  url: '../../assets/photos/_DSC2288.jpg'
   alt: Muschrooms
 socials:
   instagram: 'https://www.instagram.com/p/CkWbGeIKiYs/'

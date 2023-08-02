@@ -5,7 +5,7 @@ categories:
   - Nature Photography
   - Birds
 image:
-  url: '/photos/DSC_1127.webp'
+  url: '../../assets/photos/DSC_1127.jpg'
   alt: Stork in the field...
 socials:
   instagram: 'https://www.instagram.com/p/B1e3ikUBVMz/'

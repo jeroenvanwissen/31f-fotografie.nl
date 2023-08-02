@@ -5,7 +5,7 @@ categories:
   - Nature Photography
   - Forrest
 image:
-  url: '/photos/_DSC2460-Edit.webp'
+  url: '../../assets/photos/_DSC2460.jpg'
   alt: Moss on fallen tree
 socials:
   instagram: 'https://www.instagram.com/p/CmgVoMRovTC/'

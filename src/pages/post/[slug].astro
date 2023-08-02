@@ -1,9 +1,10 @@
 ---
+import { Image } from "astro:assets";
 import { getSortedEntriesFromCollection } from '@lib/util';
 import Layout from '@layouts/Layout.astro';
 
 export async function getStaticPaths() {
-	return (await getSortedEntriesFromCollection('post')).map((entry) => {
+	return (await getSortedEntriesFromCollection('post')).map((entry: { slug: any; }) => {
 		return {
 			params: { slug: entry.slug },
 			props: { entry },
@@ -31,7 +32,7 @@ const { Content } = await entry.render();
 	<div class="bg-neutral-800/70 shadow-lg rounded-b mx-auto">
         <article class="px-2 py-2">
             <div class="p-2">
-                <img src={entry.data.image.url} alt={entry.data.image.alt} class="w-full h-full rounded" />
+                <Image src={entry.data.image.url} alt={entry.data.image.alt} width={1120} height={630} class="w-full h-full rounded" />
                 <div class="flex items-center justify-between">
                     <h1 class="mt-6 text-xl text-neutral-100">{entry.data.title}</h1>
                     {entry.data.socials && 

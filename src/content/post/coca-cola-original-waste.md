@@ -5,7 +5,7 @@ categories:
   - Nature Photography
   - Forrest
 image:
-  url: '/photos/_DSC2408-Edit.webp'
+  url: '../../assets/photos/_DSC2408.jpg'
   alt: Coca-Cola can left as waste on leaves in the forrest
 socials:
   instagram: 'https://www.instagram.com/p/CmhrcU-I-wl/'

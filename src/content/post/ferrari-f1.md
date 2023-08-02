@@ -5,7 +5,7 @@ categories:
   - Auto Racing
   - Sport
 image:
-  url: '/photos/DSC_5581.webp'
+  url: '../../assets/photos/DSC_5581.jpg'
   alt: Ferrari F1
 socials:
   instagram: 'https://www.instagram.com/p/CnIB1WOoxOc/'

@@ -5,7 +5,7 @@ categories:
   - Nature Photography
   - Birds
 image:
-  url: '/photos/DSC_0526.webp'
+  url: '../../assets/photos/DSC_0526.jpg'
   alt: Don't look back too much
 socials:
   instagram: 'https://www.instagram.com/p/Cm6z1AgIbJr/'

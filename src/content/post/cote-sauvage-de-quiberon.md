@@ -5,7 +5,7 @@ categories:
   - Nature Photography
   - Sea & Shore
 image:
-  url: '/photos/DSC_1270.webp'
+  url: '../../assets/photos/DSC_1270.jpg'
   alt: Côte Sauvage de Quiberon
 socials:
   instagram: 'https://www.instagram.com/p/Cm0IelvIdD6/'

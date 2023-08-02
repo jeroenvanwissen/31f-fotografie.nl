@@ -5,7 +5,7 @@ categories:
   - Nature Photography
   - Birds
 image:
-  url: '/photos/DSC_0979.webp'
+  url: '../../assets/photos/DSC_0979.jpg'
   alt: Love
 socials:
   instagram: 'https://www.instagram.com/p/B1eyLqqhPep/'

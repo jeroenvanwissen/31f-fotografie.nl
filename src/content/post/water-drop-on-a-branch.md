@@ -5,7 +5,7 @@ categories:
   - Nature Photography
   - Forrest
 image:
-  url: '/photos/_DSC2386-Edit.webp'
+  url: '../../assets/photos/_DSC2386.jpg'
   alt: Water drop on a branch
 socials:
   instagram: 'https://www.instagram.com/p/CmClTBGKPK1/'

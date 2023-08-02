@@ -5,7 +5,7 @@ categories:
   - Boats
   - Sea & Shore
 image:
-  url: '/photos/_D015233.webp'
+  url: '../../assets/photos/_D015233.jpg'
   alt: Port de Portivy, Quiberon (France)
 socials:
   instagram: 'https://www.instagram.com/p/CvX-e82IjQ0/'

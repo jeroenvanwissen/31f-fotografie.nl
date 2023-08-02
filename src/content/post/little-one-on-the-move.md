@@ -4,7 +4,7 @@ title: Little one on the move...
 categories:
   - Nature Photography
 image:
-  url: '/photos/DSC2665.webp'
+  url: '../../assets/photos/_DSC2665.jpg'
   alt: Little one on the move...
 socials:
   instagram: 'https://www.instagram.com/p/CvLHUe-oc6b/'

@@ -5,7 +5,7 @@ categories:
   - Nature Photography
   - Animals
 image:
-  url: '/photos/DSC_1201.webp'
+  url: '../../assets/photos/DSC_1201.jpg'
   alt: Moo to you too!
 socials:
   instagram: 'https://www.instagram.com/p/B1tBrPniVL7/'

@@ -5,7 +5,7 @@ categories:
   - Nature Photography
   - Sunrise / Sunset
 image:
-  url: '/photos/D01_1774-Edit.webp'
+  url: '../../assets/photos/D01_1774.jpg'
   alt: Frozen water
 socials:
   instagram: 'https://www.instagram.com/p/CGu98djg-Tv/'

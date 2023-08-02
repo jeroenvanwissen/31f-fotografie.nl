@@ -3,7 +3,7 @@ draft: false
 date: '2023-07-30T00:00:00.000Z'
 title: Butterfly
 image:
-  url: '/photos/DSC_0944.webp'
+  url: '../../assets/photos/DSC_0944.jpg'
   alt: Butterfly
 categories:
   - Nature Photography

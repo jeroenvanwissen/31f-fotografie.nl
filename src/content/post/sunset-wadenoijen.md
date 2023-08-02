@@ -5,7 +5,7 @@ categories:
   - Nature Photography
   - Sunrise / Sunset
 image:
-  url: '/photos/_D017786-Edit.webp'
+  url: '../../assets/photos/_D017786-Edit-2.jpg'
   alt: Sunset over Wadenoijen
 socials:
   instagram: 'https://www.instagram.com/p/CmuVSbIIZcy/'

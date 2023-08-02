@@ -4,7 +4,7 @@ title: Path through the field..
 categories:
   - Nature Photography
 image:
-  url: '/photos/DSC_0955.webp'
+  url: '../../assets/photos/DSC_0955.jpg'
   alt: Path through the field..
 socials:
   instagram: 'https://www.instagram.com/p/B1e4FFKhZq1/'

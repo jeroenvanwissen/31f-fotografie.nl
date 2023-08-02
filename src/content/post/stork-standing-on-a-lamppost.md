@@ -6,7 +6,7 @@ categories:
   - Birds
   - Nature Photography
 image:
-  url: /photos/DSC_1106.webp
+  url: '../../assets/photos/DSC_1106.jpg'
   alt: Stork standing on a lamppost
 socials:
   instagram: 'https://www.instagram.com/p/B1e4tV5BjCr/'

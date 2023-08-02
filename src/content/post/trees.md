@@ -5,7 +5,7 @@ categories:
   - Nature Photography
   - Forrest
 image:
-  url: '/photos/_DSC2488-Edit.webp'
+  url: '../../assets/photos/_DSC2488.jpg'
   alt: Trees
 socials:
   instagram: 'https://www.instagram.com/p/CmCkhG2Ksrz/'

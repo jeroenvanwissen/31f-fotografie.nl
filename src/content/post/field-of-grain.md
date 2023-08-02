@@ -4,7 +4,7 @@ title: Field of grain
 categories:
   - Nature Photography
 image:
-  url: '/photos/DSC2680.webp'
+  url: '../../assets/photos/_DSC2680.jpg'
   alt: Field of grain
 socials:
   instagram: 'https://www.instagram.com/p/CvLH8a0IJQ1/'

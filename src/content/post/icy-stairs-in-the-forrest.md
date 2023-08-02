@@ -5,7 +5,7 @@ categories:
   - Nature Photography
   - Forrest
 image:
-  url: '/photos/_D017205-Edit.webp'
+  url: '../../assets/photos/_D017205.jpg'
   alt: Icy stairs in the forrest
 socials:
   instagram: 'https://www.instagram.com/p/CGx2siDgp-S/'

@@ -5,7 +5,7 @@ categories:
   - Nature Photography
   - Flowers
 image:
-  url: '/photos/DSC_1217-Edit.webp'
+  url: '../../assets/photos/DSC_1217.jpg'
   alt: Alstroemeria flowers
 socials:
   instagram: 'https://www.instagram.com/p/CG0YRN7gG49/'

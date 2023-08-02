@@ -5,7 +5,7 @@ categories:
   - Nature Photography
   - Forrest
 image:
-  url: '/photos/_DSC2407-Edit.webp'
+  url: '../../assets/photos/_DSC2407.jpg'
   alt: All the leaves are brown
 socials:
   instagram: 'https://www.instagram.com/p/CmCnry5Ky8o/'

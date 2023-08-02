@@ -5,7 +5,7 @@ categories:
   - Boats
   - Sea & Shore
 image:
-  url: '/photos/DSC_1372.webp'
+  url: '../../assets/photos/DSC_1372.jpg'
   alt: Pilot Boat "Pioneer" at Vlissingen
 socials:
   instagram: 'https://www.instagram.com/p/CE4Rc5XA0VD/'

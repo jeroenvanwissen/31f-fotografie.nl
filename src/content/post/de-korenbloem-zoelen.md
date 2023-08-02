@@ -6,7 +6,7 @@ categories:
   - Windmill
   - Landscape
 image:
-  url: '/photos/DSC2669.webp'
+  url: '../../assets/photos/_DSC2669.jpg'
   alt: De Korenbloem, Zoelen
 socials:
   instagram: 'https://www.instagram.com/p/CvLJGLyIJ7A/'

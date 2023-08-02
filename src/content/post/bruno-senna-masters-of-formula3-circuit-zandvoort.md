@@ -5,7 +5,7 @@ categories:
   - Auto Racing
   - Sport
 image:
-  url: '/photos/20060806_00799_DSC_4045.webp'
+  url: '../../assets/photos/20060806_00799_DSC_4045.jpg'
   alt: Bruno Senna
 socials:
   instagram: 'https://www.instagram.com/p/CvZfqfiouw3/'

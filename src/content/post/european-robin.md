@@ -5,7 +5,7 @@ categories:
   - Nature Photography
   - Birds
 image:
-  url: '/photos/DSC_1224.webp'
+  url: '../../assets/photos/DSC_1224.jpg'
   alt: European Robin
 socials:
   instagram: 'https://www.instagram.com/p/CB8yzTag1I_/'

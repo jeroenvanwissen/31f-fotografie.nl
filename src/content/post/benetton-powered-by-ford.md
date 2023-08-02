@@ -5,7 +5,7 @@ categories:
   - Auto Racing
   - Sport
 image:
-  url: '/photos/DSC_5630.webp'
+  url: '../../assets/photos/DSC_5630.jpg'
   alt: Benetton - Powered by Ford
 socials:
   instagram: 'https://www.instagram.com/p/Cmw63CUIvmz/'

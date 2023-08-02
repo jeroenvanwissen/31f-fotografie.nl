@@ -5,7 +5,7 @@ categories:
   - Nature Photography
   - Insects
 image:
-  url: '/photos/DSC_0948.webp'
+  url: '../../assets/photos/DSC_0948.jpg'
   alt: Butterfly
 socials:
   instagram: 'https://www.instagram.com/p/B1e30vqh5Mp/'

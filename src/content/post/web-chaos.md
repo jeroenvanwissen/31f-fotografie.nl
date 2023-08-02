@@ -5,7 +5,7 @@ categories:
   - Nature Photography
   - Forrest
 image:
-  url: '/photos/_DSC2313.webp'
+  url: '../../assets/photos/_DSC2313.jpg'
   alt: Web Chaos
 socials:
   instagram: 'https://www.instagram.com/p/CmpZ5CBICOo/'

@@ -5,7 +5,7 @@ categories:
   - Nature Photography
   - Beach
 image:
-  url: '/photos/D01_2198-Edit.webp'
+  url: '../../assets/photos/D01_2198.jpg'
   alt: Sand sculptures on the beach
 socials:
   instagram: 'https://www.instagram.com/p/CGvii3kgBqx/'

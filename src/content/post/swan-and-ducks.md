@@ -5,7 +5,7 @@ categories:
   - Nature Photography
   - Birds
 image:
-  url: '/photos/D01_1814.webp'
+  url: '../../assets/photos/D01_1814.jpg'
   alt: Swan & Ducks
 socials:
   instagram: 'https://www.instagram.com/p/CnCczhko4je/'

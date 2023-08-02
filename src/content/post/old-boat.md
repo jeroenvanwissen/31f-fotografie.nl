@@ -5,7 +5,7 @@ categories:
   - Nature Photography
   - Boats
 image:
-  url: '/photos/DSC_0212.webp'
+  url: '../../assets/photos/DSC_0212-2.jpg'
   alt: Old Boat
 socials:
   instagram: 'https://www.instagram.com/p/Cm_c5sUIQtA/'
