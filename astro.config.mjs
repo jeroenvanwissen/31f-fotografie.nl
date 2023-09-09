@@ -10,7 +10,7 @@ export default defineConfig({
     drafts: false,
   },
   experimental: {
-    assets: true,
+    // assets: true,
   },
   image: {
     service: sharpImageService(),
