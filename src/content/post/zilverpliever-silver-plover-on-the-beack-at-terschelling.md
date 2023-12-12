@@ -1,0 +1,15 @@
+---
+draft: true
+date: '2023-12-13T23:00:00.000Z'
+title: Zilverplevier (Silver Plover) on the beach at Terschelling
+categories:
+  - Nature Photography
+  - Birds
+  - Sea & Shore
+image:
+  url: '../../assets/photos/_DSC2753.jpg'
+  alt: Zilverplevier (Silver Plover) on the beach at Terschelling
+# socials:
+#   instagram: ''
+#   mastodon: ''
+---
