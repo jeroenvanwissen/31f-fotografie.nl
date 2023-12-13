@@ -1,6 +1,6 @@
 ---
-draft: true
-date: '2023-12-13T23:00:00.000Z'
+draft: false
+date: '2023-12-12T23:00:00.000Z'
 title: Zilverplevier (Silver Plover) on the beach at Terschelling
 categories:
   - Nature Photography
