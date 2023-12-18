@@ -17,7 +17,7 @@
   "dependencies": {
     "@astrojs/tailwind": "^5.0.3",
     "@tinacms/cli": "^1.5.39",
-    "sharp": "^0.33.0",
+    "sharp": "^0.33.1",
     "tailwindcss": "^3.3.6",
     "tinacms": "^1.5.28"
   }
